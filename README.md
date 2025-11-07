@@ -114,11 +114,11 @@ $$\phi \sim \mathcal{N}(0, (\pi/3)^2), \quad \theta \sim \mathcal{N}(0, (\pi/3)^
 
 The system **maximizes the posterior** (equivalently, minimizes negative log-posterior):
 
-$$\theta^*, C^* = \arg\max_{\theta,C} \log p(\theta, C | S, T)$$
+$$\theta^{*}, C^{*} = \arg\max_{\theta,C} \log p(\theta, C | S, T)$$
 
 Expanding:
 
-$$\theta^*, C^* = \arg\min_{\theta,C} E(\theta, C)$$
+$$\theta^{*}, C^{*} = \arg\min_{\theta,C} E(\theta, C)$$
 
 where the **energy function** is:
 
